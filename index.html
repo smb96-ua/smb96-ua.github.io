@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Mínguez Berja - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="profile-picture-container" data-aos="fade-down">
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQF-UeuQiae4-g/profile-displayphoto-crop_800_800/B56ZoVgPhMI8AI-/0/1761297366122?e=1764201600&v=beta&t=KG0sfl6UDkDseMxXhd8a3teZR0-5R7qxXtFyZD_k1Nw" alt="Sergio Mínguez Berja">
+            </div>
+            <h1 data-aos="fade-up" data-aos-delay="100">Sergio Mínguez Berja</h1>
+            <p class="subtitle" data-aos="fade-up" data-aos-delay="200">Software Engineer | Distributed Systems, Full-Stack & C++</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2 data-aos="fade-up">About Me</h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+                A highly motivated and recently graduated Software Engineer from the University of Alicante. My academic journey has provided me with a robust foundation in computer science, while my projects demonstrate a strong command of distributed systems architecture, full-stack web development (Java/PHP), and systems programming in C++. I am passionate about building efficient, scalable software and solving complex technical challenges.
+            </p>
+        </section>
+        
+        <section id="projects">
+            <h2 data-aos="fade-up">Featured Projects</h2>
+            <div class="project-grid">
+
+                <!-- Project 1: EasyCab -->
+                <div class="project-card" data-aos="fade-up">
+                    <a href="https://github.com/smb96-ua/easycab-distributed-taxi-system" target="_blank">
+                        <div class="card-content">
+                            <span class="project-type">Advanced Architecture Project</span>
+                            <h3>EasyCab - Distributed Taxi System</h3>
+                            <p>A sophisticated distributed system simulating a taxi service, built on a microservices architecture. Each component (Trip, Passenger, Driver) operates as an independent service, communicating asynchronously via a RabbitMQ message broker. This project showcases advanced concepts in scalability, fault tolerance, and inter-service communication.</p>
+                            <div class="project-tech"><span>Java</span><span>Spring Boot</span><span>RabbitMQ</span><span>Microservices</span><span>Docker</span></div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 2: CitaClick (TFG) -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                     <a href="https://github.com/smb96-ua/CitaClick" target="_blank">
+                        <div class="card-content">
+                            <span class="project-type">Final Degree Project</span>
+                            <h3>CitaClick - Full-Stack Appointment Platform</h3>
+                            <p>A complete web application for managing appointments. The backend, built with Spring Boot, exposes a REST API for business logic and data persistence. The frontend is a dynamic single-page application developed with Angular, demonstrating a full end-to-end development cycle.</p>
+                            <div class="project-tech"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>TypeScript</span><span>REST API</span><span>MySQL</span></div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 3: Laravel Course Management -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <a href="https://github.com/smb96-ua/sistema-gestion-cursos-laravel" target="_blank">
+                       <div class="card-content">
+                            <span class="project-type">Full-Stack Project</span>
+                            <h3>Course Management System</h3>
+                            <p>A web platform for managing courses, built with the Laravel framework. The application follows the MVC pattern and includes features for user authentication, course creation, and enrollment management, showcasing proficiency in a popular PHP ecosystem and rapid development practices.</p>
+                            <div class="project-tech"><span>PHP</span><span>Laravel</span><span>MVC</span><span>Blade</span><span>Eloquent ORM</span></div>
+                       </div>
+                   </a>
+               </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 data-aos="fade-up">Get In Touch</h2>
+            <p data-aos="fade-up" data-aos-delay="100">I'm always open to discussing new projects and opportunities. Let's connect!</p>
+            <div class="contact-links" data-aos="fade-up" data-aos-delay="200">
+                <a href="mailto:sfm181818@gmail.com" class="button">Email Me</a>
+                <a href="https://github.com/smb96-ua" target="_blank" class="button">GitHub</a>
+                <a href="https://www.linkedin.com/in/sergio-m%C3%ADnguez-566bb4228/" target="_blank" class="button">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sergio Mínguez Berja. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
+        });
+    </script>
+</body>
+</html>
